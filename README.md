@@ -1,4 +1,4 @@
-# BAEKJOON
+# CODING TEST
 
 ### 1 일 1 문제 시작!
 
