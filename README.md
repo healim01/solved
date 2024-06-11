@@ -1,4 +1,4 @@
-# CODING TEST
+# Sovled
 
 ### 1 일 1 문제 시작!
 
