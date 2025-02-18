@@ -7,5 +7,5 @@ function solution(numbers) {
        }
    }
     
- return [...new Set(answer)].sort((a, b) => a > b ? 1 : -1);
+ return [...new Set(answer)].sort((a, b) => a - b);
 }
