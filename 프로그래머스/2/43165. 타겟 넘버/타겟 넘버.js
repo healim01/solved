@@ -1,19 +1,15 @@
 function solution(numbers, target) {
-    let answer = 0;
+    let answer = 0; 
+    
+    function dfs(cur, idx) {
+        if (idx === numbers.length && cur === target) return answer++; 
+        if (idx === numbers.length) return;
+        
+        dfs(cur + numbers[idx], idx + 1); 
+        dfs(cur - numbers[idx], idx + 1); 
+    }
     
     dfs(0, 0);
     
-    function dfs(index, sum) {
-        if (index === numbers.length) {
-            if (sum === target) {
-                answer++;
-             }
-            return;
-        }
-        
-        dfs(index + 1, sum + numbers[index]);
-        dfs(index + 1, sum - numbers[index]);
-    }
-    
-    return answer;
+    return answer; 
 }
