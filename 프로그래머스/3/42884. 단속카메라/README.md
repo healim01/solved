@@ -1,10 +1,10 @@
 # [level 3] 단속카메라 - 42884 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42884) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42884?language=javascript) 
 
 ### 성능 요약
 
-메모리: 35.8 MB, 시간: 18.64 ms
+메모리: 36.4 MB, 시간: 21.30 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 03월 07일 12:04:31
+2025년 05월 08일 00:57:02
 
 ### 문제 설명
 
