@@ -20,7 +20,6 @@ function solution(n, edge) {
     while (queue.length) {
         const node = queue.shift();
         const eds = graph[node];  
-        // console.log(node, path[node], eds);
         
         eds.forEach((ed) => {
             if (!visited[ed]) {
