@@ -10,10 +10,8 @@ function solution(operations) {
             if (num == 1) discard = Math.max(...queue); 
             if (num == -1) discard = Math.min(...queue); 
             
-            // console.log(discard);
             if (queue.length) queue = queue.filter((q) => q != discard); 
         }
-        // console.log(queue);
     })
     
    return [
